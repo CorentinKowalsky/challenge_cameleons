@@ -1,0 +1,96 @@
+body
+
+{
+	font-family: "Open Sans";
+	width: 900px;
+	margin: 0px 200px 50px 200px;
+	background-color: #2f3848;
+	background-size:100%;
+	color: white;
+	
+}
+#first
+{
+	width: 100%;
+}
+#conteneur
+{
+	
+}
+.element
+{
+	border-radius: 3px;
+	text-align: center;
+	border-bottom: 2px solid #00ccff;
+	margin: 0px 100px 0px 25px;
+	color: white;
+	width: 75%;
+	background-color: #f05768;
+	padding: 0px 100px 0px 100px;
+}
+
+h2
+{
+	color: #00ccff;
+	font-style: italic;
+
+}
+
+.coucou
+{ 
+	color: white;
+	font-family: OpenSans;
+
+
+}
+
+#nav
+{
+
+}
+#c
+{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+
+}
+#art
+{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column;
+	float: left;
+	border: 1px solid black;
+}
+#nav
+{
+	list-style-type: none;
+	display: inline;
+	color: blue;
+}
+#nav li
+{     
+  display: inline-flex;     
+  font-size: 20px;     
+  color: green;
+
+}
+ #nav a:link
+ {     
+	text-decoration: none;    
+ padding: 30px 1px 4px 10px; 
+}  
+ #nav a:visited
+ {     
+  color: blue; 
+}
+#About, #Blog, #Contact
+{
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
