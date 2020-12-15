@@ -1,3 +1,4 @@
+
 body
 
 {
@@ -7,7 +8,7 @@ body
 	background-color: #2f3848;
 	background-size:100%;
 	color: white;
-	
+	font-size: 19px;
 }
 #first
 {
@@ -44,6 +45,7 @@ h2
 
 }
 
+
 #nav
 {
 
@@ -58,10 +60,23 @@ h2
 #art
 {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	flex-direction: column;
-	float: left;
-	border: 1px solid black;
+	width: 29%;
+	float: right;
+	background-color: #004488;
+	color: yellowgreen;
+	padding: 5px 0px 5px 10px;
+	font-size: 15px;
+}
+#abs
+{
+	
+	background-color: #f05768;
+	position: absolute;
+	padding: 0px 15px 0px 15px;
+	
+	text-align: center;
 }
 #nav
 {
@@ -93,4 +108,44 @@ h2
   overflow: hidden;
   background-color: #333;
   text-align: center;
+}
+#galerie
+{
+	margin-top: 35px;
+	display: grid, flex;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   grid-gap: 25px;
+   align-self: flex-start;
+   width: 85%;
+ }
+img
+{
+	
+}
+h3
+{
+	color: #00ccff;
+}
+.photo
+{
+  
+
+}
+.footer
+{
+	  	width: 55px;
+  	height: 55px;
+	margin-top: 10px;
+	
+}
+#corentinlecameleon
+{
+	width: 250px;
+	height: 250px;
+}
+.tof
+{
+	width: 125px;
+	height: 125px;
 }
